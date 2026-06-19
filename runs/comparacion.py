@@ -10,13 +10,10 @@ sys.path.append(os.path.join(DIR_BASE, ".."))
 from ttp import InstanciaTTP
 from sa  import simulated_annealing
 
-# -------------------------------------------------------
 # Experimento de COMPARACION con el otro grupo (genetico vs SA)
 # Presupuesto acordado: 10 minutos (600s) por ejecucion.
 # Ademas del resultado final, se registra el mejor Z encontrado
-# a los 2, 5 y 10 minutos para poder comparar la velocidad de
-# convergencia de ambos algoritmos en esos tres cortes de tiempo.
-# -------------------------------------------------------
+# a los 2, 5 y 10 minutos para poder comparar la velocidad de convergencia de ambos algoritmos en esos tres cortes de tiempo.
 N_EJECUCIONES   = 10     # número de veces que se corre el SA por instancia
 TIEMPO_MAX      = 600.0  # segundos por ejecución (10 minutos, acordado con el otro grupo)
 ARCHIVO_SALIDA  = os.path.join(DIR_BASE, "..", "resultados", "resultadosComparacion_presentacion.txt")
@@ -27,18 +24,14 @@ CORTES_SEGUNDOS = [120.0, 300.0, 600.0]
 CORTES_NOMBRES  = ["2 min", "5 min", "10 min"]
 
 
-# -------------------------------------------------------
 # Función auxiliar: imprime en pantalla Y escribe en el archivo
-# -------------------------------------------------------
 def imprimir(texto, archivo):
     print(texto)
     archivo.write(texto + "\n")
 
 
-# -------------------------------------------------------
 # Busca en el historial el mejor Z que se tenia hasta el segundo "tiempo_corte"
 # El historial es una lista de tuplas (tiempo, mejor_objetivo) ordenada por tiempo
-# -------------------------------------------------------
 def valor_en_tiempo(historial, tiempo_corte):
     valor = historial[0][1]
     for tiempo_punto, objetivo_punto in historial:
@@ -49,9 +42,7 @@ def valor_en_tiempo(historial, tiempo_corte):
     return valor
 
 
-# -------------------------------------------------------
 # Calcula mejor, media y desviacion estandar de una lista de valores
-# -------------------------------------------------------
 def calcular_estadisticas(valores):
     mejor = max(valores)
     media = sum(valores) / len(valores)
@@ -64,10 +55,7 @@ def calcular_estadisticas(valores):
     return mejor, media, desviacion
 
 
-# -------------------------------------------------------
-# Genera un grafico de cajas por instancia, comparando la
-# distribucion del mejor Z a los 2, 5 y 10 minutos
-# -------------------------------------------------------
+# Genera un grafico de cajas por instancia, comparando la distribucion del mejor Z a los 2, 5 y 10 minutos
 def generar_boxplot(datos_por_instancia, nombres):
     try:
         import matplotlib.pyplot as plt
@@ -97,9 +85,7 @@ def generar_boxplot(datos_por_instancia, nombres):
         print("\nmatplotlib no disponible. Datos para boxplot guardados en: datos_boxplot_comparacion.csv")
 
 
-# -------------------------------------------------------
 # Función principal
-# -------------------------------------------------------
 
 def main():
     if len(sys.argv) < 2:

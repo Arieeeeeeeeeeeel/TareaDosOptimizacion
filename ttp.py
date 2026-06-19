@@ -1,5 +1,5 @@
 import math
-
+#Algoritmo tepepe
 # Clase que representa una instancia del problema TTP
 class InstanciaTTP:
 

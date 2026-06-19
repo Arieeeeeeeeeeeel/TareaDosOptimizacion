@@ -10,24 +10,18 @@ sys.path.append(os.path.join(DIR_BASE, ".."))
 from ttp import InstanciaTTP
 from sa  import simulated_annealing
 
-# -------------------------------------------------------
-# Parámetros del experimento (editar aquí para acordar con el otro grupo)
-# -------------------------------------------------------
+# Parámetros del experimento 
 N_EJECUCIONES   = 10    # número de veces que se corre el SA por instancia
 TIEMPO_MAX      = 60.0  # segundos por ejecución
 ARCHIVO_SALIDA  = os.path.join(DIR_BASE, "..", "resultados", "resultados_informe.txt")
 ARCHIVO_BOXPLOT = os.path.join(DIR_BASE, "..", "graficos", "boxplot_informe.png")
 
-# -------------------------------------------------------
 # Función auxiliar: imprime en pantalla Y escribe en el archivo
-# -------------------------------------------------------
 def imprimir(texto, archivo):
     print(texto)
     archivo.write(texto + "\n")
 
-# -------------------------------------------------------
 # Genera boxplot con los resultados de las 10 ejecuciones
-# -------------------------------------------------------
 def generar_boxplot(todos_resultados, nombres):
     try:
         import matplotlib.pyplot as plt
@@ -53,9 +47,7 @@ def generar_boxplot(todos_resultados, nombres):
         archivo_csv.close()
         print("\nmatplotlib no disponible. Datos para boxplot guardados en: datos_boxplot.csv")
 
-# -------------------------------------------------------
 # Función principal
-# -------------------------------------------------------
 
 def main():
     # Leer los archivos de instancia desde los argumentos

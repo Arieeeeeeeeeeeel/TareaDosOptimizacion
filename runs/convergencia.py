@@ -9,11 +9,9 @@ sys.path.append(os.path.join(DIR_BASE, ".."))
 from ttp import InstanciaTTP
 from sa  import simulated_annealing
 
-# -------------------------------------------------------
 # Estudio de convergencia: una corrida larga por instancia,
 # repetida con varias semillas, guardando como va mejorando
 # el objetivo Z a lo largo del tiempo
-# -------------------------------------------------------
 
 INSTANCIAS = [
     os.path.join(DIR_BASE, "..", "instancias", "01_facil.txt"),

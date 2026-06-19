@@ -146,9 +146,7 @@ def intercambio_items(instancia, mochila, peso_actual):
     return None, 0, 0
 
 
-# -------------------------------------------------------
-# Algoritmo principal: Simulated Annealing
-# -------------------------------------------------------
+# Algoritmo Simulated Annealing
 
 def simulated_annealing(instancia, tiempo_max=60.0, semilla=None):
     if semilla is not None:
@@ -173,11 +171,10 @@ def simulated_annealing(instancia, tiempo_max=60.0, semilla=None):
     mejor_mochila  = mochila[:]
     mejor_objetivo = objetivo_actual
 
-    # -------------------------------------------------------
     # Calibración de temperatura inicial por muestreo
     # Genera N_MUESTRAS_CALIBRACION movimientos al azar, mide sus deltas
     # y fija T0 para aceptar PORCENTAJE_ACEPTACION de los movimientos malos
-    # -------------------------------------------------------
+    
     deltas_negativos  = []
     t_muestreo_inicio = time.time()
 
