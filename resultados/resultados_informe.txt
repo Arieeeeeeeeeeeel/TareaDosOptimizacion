@@ -1,0 +1,96 @@
+Resultados del experimento - Simulated Annealing TTP
+Fecha: 2026-06-09 22:54:10
+Presupuesto: 60.0s por ejecucion  |  Ejecuciones: 10
+
+==============================================================
+Instancia: instancias/01_facil.txt
+==============================================================
+Ciudades: 280 | Items: 279 | Capacidad: 25437.0
+Renting ratio: 7.76
+--------------------------------------------------------------
+  Solucion inicial (greedy): Z = -12821.14
+--------------------------------------------------------------
+  Ejecucion  1: Z =       12314.55  |  evals =  700325  |  tiempo = 60.0s
+  Ejecucion  2: Z =       20378.42  |  evals =  724828  |  tiempo = 60.0s
+  Ejecucion  3: Z =       14179.22  |  evals =  702178  |  tiempo = 60.0s
+  Ejecucion  4: Z =       15280.06  |  evals =  693990  |  tiempo = 60.0s
+  Ejecucion  5: Z =       19082.83  |  evals =  766095  |  tiempo = 60.0s
+  Ejecucion  6: Z =       12186.90  |  evals =  773857  |  tiempo = 60.0s
+  Ejecucion  7: Z =       16610.91  |  evals =  748298  |  tiempo = 60.0s
+  Ejecucion  8: Z =       16176.80  |  evals =  745491  |  tiempo = 60.0s
+  Ejecucion  9: Z =       13952.62  |  evals =  775609  |  tiempo = 60.0s
+  Ejecucion 10: Z =       12707.03  |  evals =  784663  |  tiempo = 60.0s
+--------------------------------------------------------------
+  Mejor   : 20378.42
+  Media   : 15286.94
+  Desv.Est: 2664.31
+
+  Mejor solucion encontrada:
+    OBJETIVO Z      : 20378.42
+    Mejora vs greedy: +33199.56
+    Items recogidos : 89 / 279
+    Ganancia total  : 58672.00
+    Peso total      : 23907.00 / 25437.00
+    Uso capacidad   : 94.0%
+
+==============================================================
+Instancia: instancias/02_medio.txt
+==============================================================
+Ciudades: 575 | Items: 5740 | Capacidad: 2096603.0
+Renting ratio: 99.87
+--------------------------------------------------------------
+  Solucion inicial (greedy): Z = -1460396.54
+--------------------------------------------------------------
+  Ejecucion  1: Z =    -1328788.62  |  evals =  130522  |  tiempo = 60.2s
+  Ejecucion  2: Z =    -1145064.23  |  evals =  110694  |  tiempo = 50.8s
+  Ejecucion  3: Z =    -1452379.78  |  evals =  132434  |  tiempo = 60.2s
+  Ejecucion  4: Z =    -1460396.54  |  evals =  128474  |  tiempo = 60.2s
+  Ejecucion  5: Z =    -1458938.03  |  evals =  126535  |  tiempo = 60.2s
+  Ejecucion  6: Z =    -1440452.99  |  evals =  123147  |  tiempo = 56.8s
+  Ejecucion  7: Z =    -1460396.54  |  evals =  128213  |  tiempo = 60.2s
+  Ejecucion  8: Z =    -1460396.54  |  evals =  135666  |  tiempo = 60.0s
+  Ejecucion  9: Z =    -1341447.85  |  evals =  123914  |  tiempo = 58.2s
+  Ejecucion 10: Z =    -1434044.84  |  evals =  122322  |  tiempo = 60.1s
+--------------------------------------------------------------
+  Mejor   : -1145064.23
+  Media   : -1398230.60
+  Desv.Est: 96652.16
+
+  Mejor solucion encontrada:
+    OBJETIVO Z      : -1145064.23
+    Mejora vs greedy: +315332.30
+    Items recogidos : 2086 / 5740
+    Ganancia total  : 1705242.00
+    Peso total      : 2095192.00 / 2096603.00
+    Uso capacidad   : 99.9%
+
+==============================================================
+Instancia: instancias/03_dificil.txt
+==============================================================
+Ciudades: 1323 | Items: 13220 | Capacidad: 5693340.0
+Renting ratio: 10.61
+--------------------------------------------------------------
+  Solucion inicial (greedy): Z = -4855292.00
+--------------------------------------------------------------
+  Ejecucion  1: Z =    -4840985.76  |  evals =   36630  |  tiempo = 50.9s
+  Ejecucion  2: Z =    -3752101.93  |  evals =   37587  |  tiempo = 60.8s
+  Ejecucion  3: Z =    -4855292.00  |  evals =   38467  |  tiempo = 60.8s
+  Ejecucion  4: Z =    -4841867.11  |  evals =   36524  |  tiempo = 56.5s
+  Ejecucion  5: Z =    -4855027.96  |  evals =   34583  |  tiempo = 57.0s
+  Ejecucion  6: Z =    -4588747.13  |  evals =   35210  |  tiempo = 60.9s
+  Ejecucion  7: Z =    -4847790.63  |  evals =   37612  |  tiempo = 59.4s
+  Ejecucion  8: Z =    -4855292.00  |  evals =   42738  |  tiempo = 60.8s
+  Ejecucion  9: Z =    -4846113.72  |  evals =   40347  |  tiempo = 60.8s
+  Ejecucion 10: Z =    -4796656.25  |  evals =   30577  |  tiempo = 60.9s
+--------------------------------------------------------------
+  Mejor   : -3752101.93
+  Media   : -4707987.45
+  Desv.Est: 327879.83
+
+  Mejor solucion encontrada:
+    OBJETIVO Z      : -3752101.93
+    Mejora vs greedy: +1103190.07
+    Items recogidos : 8911 / 13220
+    Ganancia total  : 7386148.00
+    Peso total      : 5692348.00 / 5693340.00
+    Uso capacidad   : 100.0%

@@ -1,0 +1,106 @@
+Resultados de comparacion (vs otro grupo) - Simulated Annealing TTP
+Fecha: 2026-06-10 15:49:46
+Presupuesto: 600.0s por ejecucion  |  Ejecuciones: 10
+Cortes de tiempo: ['2 min', '5 min', '10 min']
+
+==============================================================
+Instancia: instancias/01_facil.txt
+==============================================================
+Ciudades: 280 | Items: 279 | Capacidad: 25437.0
+Renting ratio: 7.76
+--------------------------------------------------------------
+  Solucion inicial (greedy): Z = -12821.14
+--------------------------------------------------------------
+  Ejecucion  1: Z(2min) =      -12821.14  Z(5min) =      -12821.14  Z(10min) =       24774.23  |  evals = 7781480  |  tiempo_hallazgo =  538.7s
+  Ejecucion  2: Z(2min) =       -9938.98  Z(5min) =       -9938.98  Z(10min) =       23642.05  |  evals = 7800619  |  tiempo_hallazgo =  576.2s
+  Ejecucion  3: Z(2min) =      -12816.96  Z(5min) =      -12816.96  Z(10min) =       20764.75  |  evals = 7782141  |  tiempo_hallazgo =  598.1s
+  Ejecucion  4: Z(2min) =       -7566.47  Z(5min) =       -7566.47  Z(10min) =       20853.66  |  evals = 7778851  |  tiempo_hallazgo =  529.3s
+  Ejecucion  5: Z(2min) =         656.27  Z(5min) =         656.27  Z(10min) =       22528.60  |  evals = 7809720  |  tiempo_hallazgo =  583.5s
+  Ejecucion  6: Z(2min) =      -12368.44  Z(5min) =      -12368.44  Z(10min) =       25573.93  |  evals = 7813824  |  tiempo_hallazgo =  544.9s
+  Ejecucion  7: Z(2min) =      -10898.69  Z(5min) =      -10898.69  Z(10min) =       20887.19  |  evals = 7782519  |  tiempo_hallazgo =  508.2s
+  Ejecucion  8: Z(2min) =      -12821.14  Z(5min) =      -12821.14  Z(10min) =       24689.13  |  evals = 7815117  |  tiempo_hallazgo =  598.5s
+  Ejecucion  9: Z(2min) =      -12821.14  Z(5min) =      -12821.14  Z(10min) =       22544.30  |  evals = 7767842  |  tiempo_hallazgo =  569.7s
+  Ejecucion 10: Z(2min) =      -12821.14  Z(5min) =      -12821.14  Z(10min) =       23908.85  |  evals = 7484940  |  tiempo_hallazgo =  528.4s
+--------------------------------------------------------------
+  Z a los 2 min (Calidad)
+    Mejor   : 656.27
+    Media   : -10421.78
+    Desv.Est: 4048.34
+  Z a los 5 min (Calidad)
+    Mejor   : 656.27
+    Media   : -10421.78
+    Desv.Est: 4048.34
+  Z a los 10 min (Calidad)
+    Mejor   : 25573.93
+    Media   : 23016.67
+    Desv.Est: 1684.00
+  Tiempo de convergencia (ultima mejora)
+    Media   : 557.5s / 600s
+
+==============================================================
+Instancia: instancias/02_medio.txt
+==============================================================
+Ciudades: 575 | Items: 5740 | Capacidad: 2096603.0
+Renting ratio: 99.87
+--------------------------------------------------------------
+  Solucion inicial (greedy): Z = -1460396.54
+--------------------------------------------------------------
+  Ejecucion  1: Z(2min) =    -1328788.62  Z(5min) =    -1328788.62  Z(10min) =     -310058.55  |  evals = 1262420  |  tiempo_hallazgo =  599.4s
+  Ejecucion  2: Z(2min) =    -1145064.23  Z(5min) =    -1145064.23  Z(10min) =     -325827.88  |  evals = 1209627  |  tiempo_hallazgo =  599.8s
+  Ejecucion  3: Z(2min) =    -1452379.78  Z(5min) =    -1452379.78  Z(10min) =     -461626.66  |  evals = 1012367  |  tiempo_hallazgo =  599.5s
+  Ejecucion  4: Z(2min) =    -1460396.54  Z(5min) =    -1012445.29  Z(10min) =     -997901.97  |  evals =  305469  |  tiempo_hallazgo =  307.4s
+  Ejecucion  5: Z(2min) =    -1458938.03  Z(5min) =    -1406041.26  Z(10min) =     -569960.27  |  evals =  455848  |  tiempo_hallazgo =  431.2s
+  Ejecucion  6: Z(2min) =    -1440452.99  Z(5min) =    -1440452.99  Z(10min) =     -758538.01  |  evals =  542752  |  tiempo_hallazgo =  600.0s
+  Ejecucion  7: Z(2min) =    -1460396.54  Z(5min) =     -958861.11  Z(10min) =     -906719.06  |  evals =  396619  |  tiempo_hallazgo =  315.9s
+  Ejecucion  8: Z(2min) =    -1460396.54  Z(5min) =    -1460396.54  Z(10min) =     -818479.55  |  evals =  651371  |  tiempo_hallazgo =  600.0s
+  Ejecucion  9: Z(2min) =    -1341447.85  Z(5min) =     -919820.85  Z(10min) =     -919820.85  |  evals =  336488  |  tiempo_hallazgo =  266.1s
+  Ejecucion 10: Z(2min) =    -1434044.84  Z(5min) =    -1434044.84  Z(10min) =     -510280.17  |  evals =  727423  |  tiempo_hallazgo =  599.1s
+--------------------------------------------------------------
+  Z a los 2 min (Calidad)
+    Mejor   : -1145064.23
+    Media   : -1398230.60
+    Desv.Est: 96652.16
+  Z a los 5 min (Calidad)
+    Mejor   : -919820.85
+    Media   : -1255829.55
+    Desv.Est: 211378.73
+  Z a los 10 min (Calidad)
+    Mejor   : -310058.55
+    Media   : -657921.30
+    Desv.Est: 241110.43
+  Tiempo de convergencia (ultima mejora)
+    Media   : 491.8s / 600s
+
+==============================================================
+Instancia: instancias/03_dificil.txt
+==============================================================
+Ciudades: 1323 | Items: 13220 | Capacidad: 5693340.0
+Renting ratio: 10.61
+--------------------------------------------------------------
+  Solucion inicial (greedy): Z = -4855292.00
+--------------------------------------------------------------
+  Ejecucion  1: Z(2min) =    -4840985.76  Z(5min) =    -4840985.76  Z(10min) =    -4840985.76  |  evals =   73509  |  tiempo_hallazgo =    0.0s
+  Ejecucion  2: Z(2min) =    -3752101.93  Z(5min) =    -3752101.93  Z(10min) =    -3752101.93  |  evals =  167106  |  tiempo_hallazgo =    0.0s
+  Ejecucion  3: Z(2min) =    -4855292.00  Z(5min) =    -4855292.00  Z(10min) =    -4855292.00  |  evals =   88063  |  tiempo_hallazgo =    0.0s
+  Ejecucion  4: Z(2min) =    -4841867.11  Z(5min) =    -4841867.11  Z(10min) =    -4841867.11  |  evals =  365847  |  tiempo_hallazgo =    0.0s
+  Ejecucion  5: Z(2min) =    -4855027.96  Z(5min) =    -4855027.96  Z(10min) =    -4855027.96  |  evals =  412254  |  tiempo_hallazgo =    0.0s
+  Ejecucion  6: Z(2min) =    -4588747.13  Z(5min) =    -4588747.13  Z(10min) =    -4588747.13  |  evals =  387560  |  tiempo_hallazgo =    0.0s
+  Ejecucion  7: Z(2min) =    -4847790.63  Z(5min) =    -4847790.63  Z(10min) =    -4847790.63  |  evals =  210111  |  tiempo_hallazgo =    0.0s
+  Ejecucion  8: Z(2min) =    -4855292.00  Z(5min) =    -4855292.00  Z(10min) =    -4855292.00  |  evals =  170600  |  tiempo_hallazgo =    0.0s
+  Ejecucion  9: Z(2min) =    -4846113.72  Z(5min) =    -4846113.72  Z(10min) =    -4846113.72  |  evals =  136544  |  tiempo_hallazgo =    0.0s
+  Ejecucion 10: Z(2min) =    -4796656.25  Z(5min) =    -4796656.25  Z(10min) =    -4796656.25  |  evals =  157560  |  tiempo_hallazgo =    0.0s
+--------------------------------------------------------------
+  Z a los 2 min (Calidad)
+    Mejor   : -3752101.93
+    Media   : -4707987.45
+    Desv.Est: 327879.83
+  Z a los 5 min (Calidad)
+    Mejor   : -3752101.93
+    Media   : -4707987.45
+    Desv.Est: 327879.83
+  Z a los 10 min (Calidad)
+    Mejor   : -3752101.93
+    Media   : -4707987.45
+    Desv.Est: 327879.83
+  Tiempo de convergencia (ultima mejora)
+    Media   : 0.0s / 600s
