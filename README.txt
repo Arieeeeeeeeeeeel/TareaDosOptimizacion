@@ -5,9 +5,9 @@ Algoritmo implementado: Simulated Annealing
 
 INTEGRANTES DEL GRUPO
 ----------------------------------------------------------------
-- Diego Alvarado
-- Ignacia Brahim
-- Ariel Villar
+- Diego Alvarado 20.916.064-1
+- Ignacia Brahim 21.275.186-3
+- Ariel Villar 20.447.126-6
 
 
 REQUISITOS
